@@ -25,7 +25,7 @@ class Solution {
         }
 
         StringBuilder sb = new StringBuilder();
-        // 문자열 담아주는 함수
+        // 문자열 담아주는 변수 char [] 와 같음
         for (int i = 0; i < INDICATORS.length; i++) {
 
             char a = INDICATORS[i].charAt(0);
