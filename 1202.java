@@ -19,8 +19,7 @@ class Solution {
         
         // keyset만 Set에 담아주기
 		Set<String> key = map.keySet();
-
-      // 
+	    
 		for (String s1 : key)
 			s = s.replace(s1, map.get(s1).toString());
       
